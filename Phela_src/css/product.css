@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+.all{
+     height: auto;
+    width: 1519px ; 
+    margin: 0 auto;
+}
+.menuNav{
+    
+    position: fixed;
+    top: 0px;  
+    z-index: 999;
+
+    width: 1519px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 999;
+}
+.menuImg{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.menuSign{
+    margin-left: 340px;   
+    
+}
+ 
+.pannerBlack h1{
+   
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.footerAll{
+    margin-top: 100px;
+    height: 440px;
+    background-color: rgb(9, 9, 9);
+}
+.footer-img img{
+margin-left: 180px;
+margin-top: 50px;
+
+}
+.footerBox1{
+    margin-left: -90px;
+    width: 250px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerBox2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footerBox2 p{
+    margin-top: -10px;
+}
+
+.footerBox3{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footerEmail{
+    height: 50px;
+    border-radius: 40px;
+}
+ .dropdownMenu{
+    padding: 0;
+ }
+ .dropdownMenu li{
+    margin-left: 5px;
+margin-right: 5px;
+ }
+.dropdownMenu li a{
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 5px;
+}
+.dropdownMenu li a:hover{
+    background-color: black;
+    color: #b87253;
+    padding: 5px;
+}
+
+
+/* hover menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+  }
+/* hover menu */
+  
+.text1 p{
+    margin-top: 50px;
+    margin-left: 520px;
+    font-size: 30px;
+    font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.textProduct-1 p{
+    margin-top: 120px;
+    font-size: 27px;
+    font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+}
+.textProduct-1 h5{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btnXemThem{
+    width: 110px;
+     height: 50px; 
+     margin-left: 540px;
+    margin-top: 30px;
+    background-color: #ddc3af;
+    border: 0px;
+}
+.btnXemThem:hover{
+    background-color: #be7352;
+    color: white;
+}
+.text2 p{
+    margin-top: 100px;
+    margin-left: 320px;
+    font-size: 30px;
+    font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+}
+.menuProduct{
+    border-right: 1px solid #be7352;
+    background-color: #ffffff;
+    width: 200px;
+    height: 690px;
+}
+.menuProduct ul li{
+    margin-left: -20px;
+
+    margin-top: 30px;
+}
+.menuProduct ul li  a{
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ font-size: 18px;
+    color: #424542;
+    text-decoration: none;
+}
+.menuProduct ul li  a:hover{
+    color: #c38162;
+}
+
+
+.menuProduct {
+    position: relative;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 30px; /* Vị trí từ phía trên (tùy chọn) */
+    left: 150px; /* Vị trí từ phía trái (tùy chọn) */
+    
+  }
+  .menuProduct {
+  flex-shrink: 0;
+  width: 200px; /* Đặt chiều rộng menuProduct */
+}
+.textProduct-2{
+    width: 1000px;
+}
+  .textProduct-2 p{
+    margin-top: 90px;
+    margin-left: -20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+       color: #290018;
+  }
+  .text-card{
+    margin-right: -10px;
+  }
+
+  .text-card a{
+    margin-top: -4px;
+
+
+  }
+  .coDinh{
+    position: absolute;
+    left: 400px;
+  }
+.cardBig{
+    margin-left: -20px;
+    margin-right: -30px;
+    margin-bottom: 30px;
+
+}
+  .card-title{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .card-text{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #be7352;
+  }
+.btnCard{
+    padding-top: 11px;
+    width: 120px;
+    height: 50px;
+    background-color: #ddc3af;
+    border: 0px solid white;
+}
+.btnCard:hover{
+    background-color: #c38162;
+}
+ 
+.inputBar input {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.imgCanvars {
+    width: 170px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.boderImg {
+ 
+    background-color: #daa474;
+    margin-left: 20px;
+    height: 120px;
+    width: 130px;
+    margin-top: 15px;
+    border-radius: 90px;
+
+}
+
+.imgSty {
+    margin-top: 80px;
+    margin-left: -40px;
+}
+
+.textDangNhap {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bodyCanvas {
+    margin-left: 20px;
+    margin-top: -70px;
+    /* background-color: red; */
+    width: 360px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid #daa474;
+}
+
+.editCanvas p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+.editCanvas input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+
+}
+
+.editCheck {
+    margin-left: 30px;
+}
+
+.editCheck label {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+
+.editCheck input {
+    width: 20px;
+    height: 20px;
+}
+
+.btnDangNhap {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.btnDangNhap button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+    color: white;
+    border: none;
+}
+
+.btnDangNhap button:hover {
+    background-color: #daa474;
+
+}
+
+.boderDangNhap {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 258px;
+    height: 3px;
+    background-color: #be7352;
+    border-radius: 10px
+}
+
+.boderDangNhap2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    height: 20px;
+    width: 61px;
+    margin-top: 17px;
+    margin-left: -160px;
+
+}
+ .iconDangNhap{
+    margin-top: 10px;
+ }
+.iconDangNhap a {
+
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btnDangKi {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btnDangKi label a {
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btnDangKi label {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btnDangKi label a:hover {
+    color: #be7352;
+}
+
+.dangkiCanvas {
+    margin-top: 70px;
+}
+
+.dangkiCanvas label {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dangkiCanvas input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+
+.btnDangki {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.btnDangki button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+  
+}
+.btnDangki button:hover {
+    
+    background-color: #ddc3af;
+
+}
+
+.editCheck a {
+ 
+    font-weight: bold;
+    color: #b87253;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fogetPass{
+    margin-top: 60px;
+}
+.fogetPass label{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fogetPass input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+.ipForget input{
+    width: 200px;
+}
+.ipForget button{
+    width: 90px;
+    height: 45px;
+    background-color: #ddc3af;
+    color: white;
+    border: none;
+}
+
+.btnChangePass button {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+.offcanvas.cartMiniProduct1{
+    width: 350px;
+}
+.imgH1 img{
+    margin-top: 10px;
+    margin-left: -3px;
+width: 100px;
+height: 100px;
+object-fit: cover;
+
+}
+.textGH1{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 160px;
+    /* background-color: #b87253; */
+   
+}
+.textGH1 p{
+    margin-left: 7px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cpMini1{
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 85px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 25px;
+}
+.cpMini1 a{
+    color: black;
+   text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.cpMini1 a:hover{
+    color: #b87253;
+}
+ .textProduct-2 p {
+display: inline-block;
+ }
+ .btnSort button{
+    background-color: #ffffff;
+    border: none;
+ }
+ .btnSort button:hover{
+    color: #b87253;
+ }
+.btnAdd{
+    color: white;
+    background-color: #ddc3af   ;
+    border-radius: 5px;
+    width: 50px;
+    height: 51px;
+    border: none;
+}
+.btnAdd:hover{
+background-color: #c38162;
+}
+
+.page-item button:hover {
+    background-color: #b59483;
+ 
+  }

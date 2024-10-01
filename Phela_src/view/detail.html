@@ -1,0 +1,277 @@
+<div class="allDetail" style="margin-top: 50px;">
+    
+    <div class="container" style=" height: 700px;">
+        <div class="row">
+            <div class="col-12 dtBox-1" style="margin-top: 50px;margin-left: 70px; font-size: 13px;
+                                            font-family: 'Times New Roman', Times, serif; ">
+                <p><a href="">PhêLa</a></p>
+                <p style="margin-left: 5px; margin-right: 5px;">></p>
+                <p><a href="">
+                        Sản phẩm</a></p>
+                <p style="margin-left: 5px; margin-right: 5px;">></p>
+                <p><a href="" style="color:black; font-size: 14px;">{{ds.name}}</a></p>
+            </div>
+
+            <!-- <div class="col-3" style="margin-left: 70px; margin-top: 30px;">
+                    </div>
+                    <div class="col-9">
+                        <strong>
+
+                        
+                    </div> -->
+            <div class="col-3" style="margin-left: 70px; margin-top: 30px;">
+                <img src="{{ds.img}}" alt="" width="400px" height="500px">
+            </div>
+           
+            <div class="col-9 dtBox-2" style="width: 800px;   height: 500px;">
+                <strong>{{ds.name}}</strong><br>
+                <h5>{{ds.price | number:0}}đ</h5><span
+                    style="font-size: 15px; font-weight: bolder; color: black; margin-right: 20px;margin-left: 400px;">
+                    <!-- <a  href="" style="color: black;">6,2K </a>Đã bán </span> <span style="font-size: 10px;"> <a
+                                href="" style="font-size: 15px; font-weight: bolder; color: black;">5,0</a>
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> -->
+                    <!-- <select aria-describedby="" class="select__input" id="milk-options-one-select">
+                            <option class="hidden" disabled="" hidden="" value="">Milk</option>
+                            <option>Heavy Cream</option>
+                            <option>Vanilla Sweet Cream</option>
+                            <option>Nonfat Milk</option>
+                            <option>2% Milk</option>
+                            <option>Whole Milk</option>
+                            <option>Breve (Half &amp; Half)</option>
+                            <option>Almond</option>
+                            <option>Coconut</option>
+                            <option>Oatmilk</option>
+                            <option>Soy</option>
+                        </select> -->
+                    <!-- <div class="input-group">
+                            <div class="input-group-prepend">
+                              <button class="btn btn-outline-secondary" type="button" id="decrease-btn">
+                                <i class="fas fa-minus"></i>
+                              </button>
+                            </div>
+                            <input type="text" class="form-control" value="1" id="quantity-input">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button" id="increase-btn">
+                                <i class="fas fa-plus"></i>
+                              </button>
+                            </div>
+                          </div> -->
+                    <div class="row">
+                        <div class="col-6" style="  width: 400px; height: 400px;">
+                            <div class="optionAll">
+                                <div class="row">
+                                    <div class="col-12 sizeOption">
+                                        <strong> Tùy Chọn</strong>
+                                        <p></p>
+
+                                    </div>
+                                    <div class="col-6" style="margin-left: 30px;">
+                                        <input type="text" class="selectOption">
+
+                                        </select>
+                                    </div>
+                                    <div class="col-6" style="width: 0px;">
+                                        <div class="miniText" style="width: 67px;">
+                                            <p>Số Lượng</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+
+                                    <div class="col-6" style="margin-left: 30px;">
+                                        <select aria-describedby="" class="select__input selectOption"
+                                            id="milk-options-one-select">
+                                            <option>Nhỏ - 236ml</option>
+                                            <option>Vừa - 354ml</option>
+                                            <option>Lớn - 473ml</option>
+                                            <option>Cực Lớn - 705ml</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-6" style="width: 0px;">
+                                        <div class="miniText" style="width: 60px;">
+                                            <p>Kích cỡ</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 ">
+                                        <button style="width: 175px;" class="btnOption">Thêm vào Giỏ Hàng
+                                        </button>
+                                        <button class="btnOption"> <a href="cart.html"
+                                                style="text-decoration: none; color:aliceblue ">Mua Ngay</a>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-6" style="width: 400px; height: 400px;">
+                            <div class="optionAll">
+                                <div class="row">
+                                    <div class="col-12 sizeOption">
+                                        <strong>Khẩu vị riêng bạn</strong>
+                                        <p></p>
+
+                                    </div>
+                                    <div class="col-6" style="margin-left: 30px;">
+                                        <select aria-describedby="" class="select__input selectOption"
+                                            id="milk-options-one-select">
+                                            <option>80% - Đậm nhẹ</option>
+                                            <option>50% - Đậm Vừa </option>
+                                            <option>30% - Không đậm</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6" style="width: 0px;">
+                                        <div class="miniText" style="width: 57px;">
+                                            <p>Đậm trà</p>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <br>
+                                    <br>
+
+                                    <div class="col-6" style="margin-left: 30px;">
+                                        <select aria-describedby="" class="select__input selectOption"
+                                            id="milk-options-one-select">
+                                            <option>70% - Ngọt Thanh</option>
+                                            <option>50% - Ngọt vừa</option>
+                                            <option>30% - Ít ngọt</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6" style="width: 0px;">
+                                        <div class="miniText" style="width: 42px;">
+                                            <p>Đường</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div class="col-6" style="margin-left: 30px;">
+                                        <select aria-describedby="" class="select__input selectOption"
+                                            id="milk-options-one-select">
+                                            <option>70%</option>
+                                            <option>50%</option>
+                                            <option>20%</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6" style="width: 0px;">
+                                        <div class="miniText" style="width: 20px;">
+                                            <p>Đá </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+            </div>
+            <div class="col-12 titleDetail">
+                <h5>CHI TIẾT SẢN PHẨM</h5>
+                <p></p>
+
+                <ul style="list-style-type: none; margin-top:50px;">
+                    <li style="font-size: 20px ; 
+                            font-family: 'Courier New', Courier, monospace; 
+                                     font-weight: bold;
+                            ">🌱 Chi tiết trước khi sử dụng</li>
+                    <li>- Mô tả : Trà Ô Long Đỏ thượng hạng kết hợp cùng kem whipping nhẹ nhàng, sánh ngậy.</li>
+
+                    <li> - Vùng nguyên liệu : Đà Lạt</li>
+                    <li>- Phương thức canh tác : Thuận tự nhiên</li>
+                    <li> - Đặc tính : Thơm hương nhài, vị Ô Long đậm đà
+                        hòa quyện cùng vị sữa thơm béo</li>
+            </div>
+
+            <div class="col-12 detaiSlide">
+                <h5>SẢN PHẨM NỔI BẬT</h5>
+                <p></p>
+
+            </div>
+            <!-- <div class="col-12" style="  width: 1400px;height: 700px;">
+
+                        <div class="splide" role="group" style="width: 1300px;  margin-top: 60px; height: 600px;"
+                            aria-label="Splide Basic HTML Example">
+                            <div class="splide__track" ">
+                            <ul class=" splide__list sizeImg"
+                                style="height: 700px ; width: 1200px; background-color: chartreuse;  margin-left: -60px;">
+                                <li class="splide__slide" style="margin-left: 35px;">
+                                    <div class="card" style="width:350px; margin-left: 10px;">
+                                        <img src="image/pr13.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body textDetail">
+                                            <h5 class="card-title ">Card title</h5>
+                                            <p class="card-text">50,00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" style="margin-left: 35px;">
+                                    <div class="card" style="width:350px; margin-left: 10px;">
+                                        <img src="image/pr16.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body textDetail">
+                                            <h5 class="card-title ">LANG BIANG</h5>
+                                            <p class="card-text">54.000₫</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" style="margin-left: 35px;">
+                                    <div class="card" style="width:350px; margin-left: 10px;">
+                                        <img src="image/pr1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body textDetail">
+                                            <h5 class="card-title ">PHÊ THĂNG - CaFe Ủ LẠNH</h5>
+                                            <p class="card-text">63.818₫</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" style="margin-left: 35px;">
+                                    <div class="card" style="width:350px; margin-left: 10px;">
+                                        <img src="image/pr14.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body textDetail">
+                                            <h5 class="card-title ">PHÊ NÂU</h5>
+                                            <p class="card-text">38.291₫</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" style="margin-left: 35px;">
+                                    <div class="card" style="width:350px; margin-left: 10px;">
+                                        <img src="image/pr7.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body textDetail">
+                                            <h5 class="card-title ">SĂN MÂY (MATCHA ĐÁ XAY)</h5>
+                                            <p class="card-text">83.455₫</p>
+                                        </div>
+                                    </div>
+                                </li>
+                        </ul>
+
+                            </div>
+
+                        </div>
+                    </div>  -->
+            <div ng-include="'/view/slide.html'"></div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+</div>

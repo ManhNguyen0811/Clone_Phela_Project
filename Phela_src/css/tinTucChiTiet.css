@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    height: auto;
+    width: 1519px;
+    margin: 0 auto;
+}
+
+.menuNav {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 1517px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.menuImg {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.menuSign {
+    margin-left: 340px;
+
+}
+
+.banner {
+    object-fit: cover;
+
+    margin-top: 60px;
+    width: 1519px
+}
+
+.pannerBlack h1 {
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.footerAll {
+    margin-top: 100px;
+    height: 440px;
+    background-color: rgb(9, 9, 9);
+}
+
+.footer-img img {
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+.footerBox1 {
+    margin-left: -90px;
+    width: 250px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerBox2 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerBox2 p {
+    margin-top: -10px;
+}
+
+.footerBox3 {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerEmail {
+    height: 50px;
+    border-radius: 40px;
+}
+
+.dropdownMenu {
+    padding: 0;
+}
+
+.dropdownMenu li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdownMenu li a {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.dropdownMenu li a:hover {
+    background-color: black;
+    color: #b87253;
+    padding: 5px;
+}
+
+
+/* hover menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+/* hover menu */
+
+.inputBar input {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.imgCanvars {
+    width: 170px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.boderImg {
+    background-color: #daa474;
+    margin-left: 20px;
+    height: 120px;
+    width: 130px;
+    margin-top: 15px;
+    border-radius: 90px;
+
+}
+
+.imgSty {
+    margin-top: 80px;
+    margin-left: -40px;
+}
+
+.textDangNhap {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bodyCanvas {
+    margin-left: 20px;
+    margin-top: -70px;
+    /* background-color: red; */
+    width: 360px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid #daa474;
+}
+
+.editCanvas p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+.editCanvas input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+
+}
+
+.editCheck {
+    margin-left: 30px;
+}
+
+.editCheck label {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+
+.editCheck input {
+    width: 20px;
+    height: 20px;
+}
+
+.btnDangNhap {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.btnDangNhap button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+    color: white;
+    border: none;
+}
+
+.btnDangNhap button:hover {
+    background-color: #daa474;
+
+}
+
+.boderDangNhap {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 258px;
+    height: 3px;
+    background-color: #be7352;
+    border-radius: 10px
+}
+
+.boderDangNhap2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    height: 20px;
+    width: 61px;
+    margin-top: 17px;
+    margin-left: -160px;
+
+}
+
+.iconDangNhap {
+    margin-top: 10px;
+}
+
+.iconDangNhap a {
+
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btnDangKi {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btnDangKi label a {
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btnDangKi label {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btnDangKi label a:hover {
+    color: #be7352;
+}
+
+.dangkiCanvas {
+    margin-top: 70px;
+}
+
+.dangkiCanvas label {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dangkiCanvas input {
+    
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+
+.btnDangki {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.btnDangki button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+
+}
+
+.btnDangki button:hover {
+
+    background-color: #ddc3af;
+
+}
+
+.editCheck a {
+
+    font-weight: bold;
+    color: #b87253;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fogetPass {
+    margin-top: 60px;
+}
+
+.fogetPass label {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fogetPass input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+
+.ipForget input {
+    width: 200px;
+}
+
+.ipForget button {
+    width: 90px;
+    height: 45px;
+    background-color: #ddc3af;
+    color: white;
+    border: none;
+}
+
+.btnChangePass button {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+.ttct1 h5 {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.ttct1 p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.ttct2 img{
+    margin-bottom: 20px;
+    object-fit: cover;
+width: 720px;
+height: 450px;
+}
+.ttct3{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 230px;
+    height: 450px;
+    /* background-color: red; */
+}
+.ttct4 img{
+    margin-left: -10px;
+    height: 200px;
+    width: 225px;
+    object-fit: cover;
+}
+.ttct5 p{
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.ttct6 button{
+    margin-left: -10px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    width: 130px;
+    height: 45px;
+    background-color: #ddc4b0;
+}
+.ttct6 button:hover{
+    background-color: #be7352;
+}

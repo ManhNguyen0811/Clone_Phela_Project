@@ -1,0 +1,206 @@
+[
+   
+        {
+            "id" :1,
+            "name" : "PHÊ THĂNG – CÀ PHÊ Ủ LẠNH",
+            "price":63818,
+            "img" :"image/pr1.jpg"
+            ,"type":"SYPHON"
+        },
+        {
+            "id" :2,
+            "name" : "PHÊ LAN",
+            "price":58909,
+            "img" :"image/pr2.jpg"
+            ,"type":"SYPHON"
+
+        },
+        {
+            "id" :3,
+            "name" : "Ô LONG TRỨNG BÔNG",
+            "price":44182,
+            "img" :"image/pr3.jpg"
+            ,"type":"SYPHON"
+
+        },
+        {
+            "id" :4,
+            "name" : "PHAN XI PĂNG",
+            "price":54000,
+            "img" :"image/pr4.jpg"
+            ,"type":"SYPHON"
+
+        },
+        {
+            "id" :5,
+            "name" : "Ô LONG NHÀI SỮA",
+            "price":54.000,
+            "img" :"image/pr5.jpg"
+            ,"type":"SYPHON"
+
+        },
+        
+    
+        {
+            "id" :6,
+            "name" : "TẤM",
+            "price":54000,
+            "img" :"image/pr6.jpg"
+            ,"type":"MOKA"
+
+        },
+        {
+            "id" :7,
+            "name" : "KHÓI B'LAO",
+            "price":54000,
+            "img" :"image/pr19.jpg"
+            ,"type":"MOKA"
+
+        },
+
+        {
+            
+            "id" :8,
+            "name" : "SĂN MÂY (MATCHA ĐÁ XAY)",
+            "price":83455,
+            "img" :"image/pr7.jpg"
+            ,"type":"bbb"
+
+        }, {
+            
+            "id" :9,
+            "name" : "MATCHA COCO LATTE",
+            "price":58909,
+            "img" :"image/pr8.jpg"
+            ,"type":"bbb"
+
+        } ,
+  
+        {
+            
+            "id" :10,
+            "name" : "PHÊ CAPPU (HẠT RO, ARA)",
+            "price":54000,
+            "img" :"image/pr9.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :11,
+            "name" : "PHÊ LATTE (HẠT COLOM, ETHI)",
+            "price":58909,
+            "img" :"image/pr10.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :12,
+            "name" : "PHÊ ĐEN",
+            "price":38291,
+            "img" :"image/pr11.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :13,
+            "name" : "ĐÀ LẠT",
+            "price":58909,
+            "img" :"image/pr12.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :14,
+            "name" : "CÀ PHÊ TRỨNG BÔNG",
+            "price":44182,
+            "img" :"image/pr13.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :15,
+            "name" : "PHÊ NÂU",
+            "price":38291,
+            "img" :"image/pr14.jpg"
+            ,"type":"cafe"
+
+        },
+        {
+            
+            "id" :16,
+            "name" : "PHÊ TRUFFLE",
+            "price":49091,
+            "img" :"image/pr15.jpg"
+            ,"type":"cafe"
+
+        },
+   
+        {
+            
+            "id" :17,
+            "name" : "LANG BIANG",
+            "price":54000,
+            "img" :"image/pr16.jpg"
+            ,"type":"NITROCOLD"
+
+            
+
+            
+        },{
+            
+            "id" :18,
+            "name" : "Ô LONG NHIỆT ĐỚI",
+            "price":49091,
+            "img" :"image/pr17.jpg"
+            ,"type":"NITROCOLD"
+            
+
+        },
+ 
+        {
+            
+            "id" :19,
+            "name" : "TRÂN CHÂU PHONG LAN",
+            "price":9818,
+            "img" :"image/pr18.jpg"
+            ,"type":"TOPPING"
+
+        },
+        {
+            
+            "id" :20,
+            "name" : "TRÂN CHÂU NHÀI",
+            "price":9818,
+            "img" :"image/pr19.jpg"
+            ,"type":"TOPPING"
+
+        },
+        {
+            
+            "id" :21,
+            "name" : "TRÂN CHÂU Ô LONG",
+            "price":9818,
+            "img" :"image/pr20.jpg"
+            ,"type":"TOPPING"
+
+        },
+        {
+            
+            "id" :22,
+            "name" : "TRÂN CHÂU GẠO RANG",
+            "price":9818,
+            "img" :"image/pr21.jpg"
+            ,"type":"TOPPING"
+
+        }
+
+    
+
+   
+
+]

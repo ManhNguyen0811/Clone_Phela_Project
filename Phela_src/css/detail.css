@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    height: auto;
+    width: 1519px;
+    margin: 0 auto;
+}
+
+.menuNav {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 1517px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.menuImg {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.menuSign {
+    margin-left: 340px;
+
+}
+
+.footerAll {
+    margin-top: 100px;
+    height: 440px;
+    background-color: rgb(9, 9, 9);
+}
+
+.footer-img img {
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+.footerBox1 {
+    margin-left: -90px;
+    width: 250px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerBox2 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerBox2 p {
+    margin-top: -10px;
+}
+
+.footerBox3 {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerEmail {
+    height: 50px;
+    border-radius: 40px;
+}
+
+.dropdownMenu {
+    padding: 0;
+}
+
+.dropdownMenu li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdownMenu li a {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+
+    color: aliceblue;
+    padding: 5px;
+}
+
+.dropdownMenu li a:hover {
+    background-color: black;
+    color: #b87253;
+    padding: 5px;
+}
+
+
+/* hover menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+/* hover menu */
+
+.menuNav {
+    width: 1527px;
+}
+
+.allDetail {
+    width: 1517px;
+    height: 1300px;
+    /* background-color: aquamarine; */
+}
+
+.dtBox-1 p {
+    display: inline;
+    text-decoration: none;
+}
+
+.dtBox-1 p a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: #cd7352;
+}
+
+.dtBox-2 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.dtBox-2 strong {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    font-weight: 900;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.dtBox-2 h5{
+    display: inline;
+   color: #f58b74;
+    height: 50px;
+    width: 300px;
+    /* background-color: blue */
+    margin-left: 35px;
+    
+    font-family: 'Courier New', Courier, monospace;
+font-size: 28px;
+font-weight: bold;
+}
+.dtBox-2 span{
+ 
+    height: 90px;
+    width: 300px;
+  
+}
+.sizeOption{
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-top: 30px;
+    margin-left: 0px;
+
+}
+.sizeOption strong{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sizeOption p{
+    margin-left: 30px;
+    width: 340px;
+    height: 4px;
+    background-color: #be7352;
+    border-radius: 10px;
+    border-bottom: 0px solid #b87253;
+}
+.selectOption {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17px;
+border: 1px solid #999999;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    width:340px;
+    height: 40px;
+}
+
+.miniText {
+    color: #bdbdbd;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: -170px;
+    z-index: 888;
+    text-align: center;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.btnOption{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 120px
+    ; height: 50px;
+     background-color: #f58b74;
+     color: white;
+     border: 0px solid black;
+}
+.btnOption:hover{
+    background-color: #be7352;
+}
+
+.titleDetail p{
+    margin-left: 568px;
+    width: 160px;
+    height: 4px;
+    background-color: #be7352;
+    border-radius: 10px;
+}
+
+.titleDetail h5{
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.titleDetail ul li{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.detaiSlide{
+    margin-top: 50px;
+
+ }
+
+.detaiSlide p{
+    margin-left: 568px;
+    width: 160px;
+    height: 4px;
+    background-color: #be7352;
+    border-radius: 10px;
+}
+
+.detaiSlide h5{
+    margin-top: 100px;
+    margin-left: 508px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+}
+  .sizeImg  ul{
+    margin-left: 100px;
+ }
+
+ .textDetail h5{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+ .textDetail p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #be7352
+ }
+ 
+.inputBar input {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.imgCanvars {
+    width: 170px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.boderImg {
+    background-color: #daa474;
+    margin-left: 20px;
+    height: 120px;
+    width: 130px;
+    margin-top: 15px;
+    border-radius: 90px;
+
+}
+
+.imgSty {
+    margin-top: 80px;
+    margin-left: -40px;
+}
+
+.textDangNhap {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bodyCanvas {
+    margin-left: 20px;
+    margin-top: -70px;
+    /* background-color: red; */
+    width: 360px;
+    height: 550px;
+    border-radius: 20px;
+    border: 2px solid #daa474;
+}
+
+.editCanvas p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+.editCanvas input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+
+}
+
+.editCheck {
+    margin-left: 30px;
+}
+
+.editCheck label {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+
+.editCheck input {
+    width: 20px;
+    height: 20px;
+}
+
+.btnDangNhap {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.btnDangNhap button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+    color: white;
+    border: none;
+}
+
+.btnDangNhap button:hover {
+    background-color: #daa474;
+
+}
+
+.boderDangNhap {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 258px;
+    height: 3px;
+    background-color: #be7352;
+    border-radius: 10px
+}
+
+.boderDangNhap2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    height: 20px;
+    width: 61px;
+    margin-top: 17px;
+    margin-left: -160px;
+
+}
+ .iconDangNhap{
+    margin-top: 10px;
+ }
+.iconDangNhap a {
+
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btnDangKi {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btnDangKi label a {
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btnDangKi label {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btnDangKi label a:hover {
+    color: #be7352;
+}
+
+.dangkiCanvas {
+    margin-top: 70px;
+}
+
+.dangkiCanvas label {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dangkiCanvas input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+
+.btnDangki {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.btnDangki button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: -80px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+  
+}
+.btnDangki button:hover {
+    
+    background-color: #ddc3af;
+
+}
+
+.editCheck a {
+ 
+    font-weight: bold;
+    color: #b87253;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fogetPass{
+    margin-top: 60px;
+}
+.fogetPass label{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fogetPass input {
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}
+.ipForget input{
+    width: 200px;
+}
+.ipForget button{
+    width: 90px;
+    height: 45px;
+    background-color: #ddc3af;
+    color: white;
+    border: none;
+}
+
+.btnChangePass button {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: #b87253;
+    border: 0px solid #b87253;
+    border-bottom: 2px solid #b87253;
+}

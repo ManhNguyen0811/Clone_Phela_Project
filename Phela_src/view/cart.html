@@ -1,0 +1,156 @@
+
+    <div class="all"    >
+  
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 cart1">
+                    <label for="">GIỎ HÀNG</label>
+                    <p></p>
+                </div>
+
+                <div class="col-8 cartAll1">
+                    <div class="productInCart" ng-repeat="c in cart  track by $index">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="{{c.img}}" alt="" width="180px" height="210px">
+                                </div>
+                                <div class="col-9 ">
+                                    <div class="row detaiCart">
+                                        <div class="rol-12 nameCart">{{c.name}}</div>
+                                        <div class="rol-12 priceCart">{{c.price|number:0}}₫</div>
+                                        <div class="rol-12 btnRemove">
+                                            <div class="row">
+                                                <div class="col-6" ng-click="removeCart(c)"><button>Remove</button></div>
+                                                <div class="col-3  quantityCart" style="color: black;">Số Lượng : <label for="" style="color: #b87253;">{{c.quantity}}</label>
+                                                </div>
+                                                <div class="col-3 totalCart" style="color: black;">Tổng : <label for="" style="color: #b87253;">{{c.price * c.quantity|number:0}}  </label> </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="productInCart">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="image/pr23.jpg" alt="" width="180px" height="210px">
+                                </div>
+                                <div class="col-9 ">
+                                    <div class="row detaiCart">
+                                        <div class="rol-12 nameCart">PLUS - ĐÀ LẠT</div>
+                                        <div class="rol-12 priceCart">137.455₫</div>
+                                        <div class="rol-12 btnRemove">
+                                            <div class="row">
+                                                <div class="col-6"><button>Remove</button></div>
+                                                <div class="col-3  quantityCart" style="color: black;">Số Lượng : <label for="" style="color: #b87253;">1</label>
+                                                </div>
+                                                <div class="col-3 totalCart" style="color: black;">Tổng : <label for="" style="color: #b87253;">67,008đ</label> </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> -->
+                    
+
+
+
+                </div>
+                <div class="col-4 cartAll2">
+                    <div class="row cartTotal">
+                        <p>Nhập mã giảm giá</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group cartTotalMini1">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" style="border: 1px solid black;">  
+                                        <button style="height: 40px; border: 1px solid black;">Nhập mã</button>
+                                 
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h5 ></h5>
+                        </div>
+                        <p style="margin-top: 10px; font-size: 23px;">Chi Phí</p>
+
+                        <div class="col-12" style="margin-top: -20px;">
+                            <div class="row cartTotalMini2"  >
+                                <div class="col-8"><p>Tổng sản phẩm :</p></div>
+                                <div class="col-3" style="font-family: 'Courier New', Courier, monospace; font-weight: bold; margin-top: 30px;">{{ totalNoDis()|number :0 }}đ</div>
+                            </div>
+                            <div class="row cartTotalMini2" style="margin-top: -30px;">
+                                <div class="col-8"><p> Giá Giảm :</p></div>
+                                <div class="col-3" style="font-family: 'Courier New', Courier, monospace; font-weight: bold; margin-top: 30px;">0đ</div>
+                            </div>
+                            <div class="row cartTotalMini2" style="margin-top: -30px;">
+                                <div class="col-8"><p>Thuế:</p></div>
+                                <div class="col-3" style="font-family: 'Courier New', Courier, monospace; font-weight: bold; margin-top: 30px;">12.00đ</div>
+                            </div>
+                            <div class="col-12 cartTotal" style="margin-top: -30px;">
+                                <h5 style="height: 3px;" ></h5>
+                            </div>
+                            <div class="col-6 cartTotal" style="width: 200px;">
+                              
+
+                            </div>
+                            <div class="row cartTotal" style="width: 500px; ">
+                                <div class="col-6">  <p style="margin-top: 36px; font-size: 20px;">Tổng Hóa Đơn :  </p></div>
+                                <div class="col-6" style="margin-top: 30px ; "><p style="font-size: 25px; "> {{total() | number:0}} đ</p> </div>
+                               
+
+                            </div>
+
+                            <div class="row cartTotal" style="margin-top: -30px;  ">
+                                <div class="col-6"><h5 style="height: 3px; width: 424px;" ></h5></div>
+                                <div class="col-6 textTotal" style="margin-top: 35px; background-color: rgb(255, 255, 255);">With </div>
+                                <div class="col-12 iconTotal" >
+                                   <i class="fa-regular fa-credit-card"  style="margin-left: 96px;"></i> <i class="fa-solid fa-qrcode"></i>  <i class="fa-solid fa-wallet"></i> <i class="fa-brands fa-cc-visa"></i>
+                                </div>
+
+                                
+                            </div>
+                           
+                            
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
